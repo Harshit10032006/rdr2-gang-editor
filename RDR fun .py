@@ -91,7 +91,7 @@ def add_members(Name , ages,roles , Bounty ,Threat_levels,Locations,Status ):
     'Last Seen': [Locations]})
     global RDR
     if roles !="Leader" :
-         RDR = pd.concat([RDR ,new_mem])
+         RDR = pdd.concat([RDR ,new_mem])
          print("New Member added : ")
     else :
          print("Error Old Leader  is Alive Right now ")
