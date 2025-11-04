@@ -7,5 +7,5 @@ Manage main gang (Arthur's Gang) members, track bounties, roles, and status, and
  2. Show the Current Status (Dead Or Alive)
  3. Can Change the Capture Requirement Like Dead or Alive/ Dead
  4. Can add new members and remove existing members From Gang
- 5. More yet to be added
+
 
