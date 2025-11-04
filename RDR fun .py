@@ -1,4 +1,4 @@
-import pandas as pd 
+import pandas as pdd 
 import numpy as np
 
 
@@ -39,9 +39,9 @@ Locations = [
 
 
 try:
-     RDR=pd.read_csv("RDR.csv")
+     RDR=pdd.read_csv("RDR.csv")
 except FileNotFoundError:
-     RDR = pd.DataFrame({
+     RDR = pdd.DataFrame({
     'Name': names,
     'Age': ages,
     'Role': roles,
@@ -82,7 +82,7 @@ def change_reqirement(value) :
 
 
 def add_members(Name , ages,roles , Bounty ,Threat_levels,Locations,Status ):
-    new_mem = pd.DataFrame({'Name': [Name],
+    new_mem = pdd.DataFrame({'Name': [Name],
     'Age': [ages],
     'Role': [roles],
     'Bounty$$': [Bounty],
